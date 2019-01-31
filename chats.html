@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Chats</title>
+</head>
+<body>
+    <header>
+        <div class="header_top">
+            <div class="header_column">
+                <i class="fas fa-plane"></i>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="header_column">
+                <span class="header_time">14:40</span>
+            </div>
+            <div class="header_column">
+                <i class="fas fa-moon"></i>
+                <i class="fab fa-bluetooth-b"></i>
+                <span class="header_battery">75% <i class="fas fa-battery-three-quarters"></i></span>
+            </div>
+        </div>
+        <div class="header_bottom">
+            <div class="header_column">
+                <span class="header_text">Edit</span>
+            </div>
+            <div class="header_column">
+                <span class="header_text">Chats<i class="fas fa-caret-down"></i></span>
+            </div>
+        </div>
+    </header>
+    <main class="chats">
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Find friends, chats, Plus Friends">
+        </div>
+        <ul class="chats_list">
+            <li class="chats_chat">
+                <div class="chat_content">
+                    <img src="images/avatar.jpg">
+                    <div class="chat_preview">
+                        <h3 class="chat_user">Dingception</h3>
+                        <span class="chat_last-message">Hello!! This is a text message.</span>
+                    </div>
+                </div>
+                <span class="chat_date-time">
+                    14:07
+                </span>
+            </li>
+            <li class="chats_chat">
+                <div class="chat_content">
+                    <img src="images/avatar.jpg">
+                    <div class="chat_preview">
+                        <h3 class="chat_user">KakaoTalk</h3>
+                        <span class="chat_last-message">You logged into KakaoTalk PC from the PC</span>
+                    </div>
+                </div>
+                <span class="chat_date-time">
+                    13:45
+                </span>
+            </li>
+        </ul>
+    </main>
+    <nav class="tab-bar">
+        <a href="index.html" class="tab-bar">
+            <i class="fas fa-user"></i><span class="tab-bar-title">Friends</span>
+        </a>
+        <a href="chat.html" class="tab-bar_tab-sel">
+            <i class="fas fa-comment"></i><span class="tab-bar-title">Chats</span>
+        </a>
+        <a href="find.html" class="tab-bar">
+            <i class="fas fa-search"></i><span class="tab-bar-title">Search</span>
+        </a>
+        <a href="more.html" class="tab-bar">
+            <i class="fas fa-ellipsis-h"></i><span class="tab-bar-title">More</span>
+        </a>
+    </nav>
+</body>
+</html>
