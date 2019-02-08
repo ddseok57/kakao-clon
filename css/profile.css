@@ -1,3 +1,70 @@
 .top-header-transparent {
     background-color: transparent;
 }
+
+.profile .profile_header {
+    height: 70vh;
+    background-image: url('images/pattern.jpg');
+    background-position: center center;
+    width: 100%;
+    position: relative;
+    top: -63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.profile_header .profile_header-container {
+    text-align: center;
+    position: relative;
+    bottom: -50px;
+}
+
+.profile_header-container img{
+    width: 100px;
+    border-radius: 40%;
+    margin-bottom: 10px;
+}
+
+.profile_container {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_container input {
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.profile_container .profile_actions {
+    display: flex;
+}
+
+.profile_actions .profile_action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.profile_action .profile_action-circle {
+    padding: 15px;
+    background-color: #e2e2e2;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile_action-circle i {
+    font-size: 25px;
+    color: #3A1D1F;
+}
+
+.profile_action .profile_action-title {
+    font-size: 12px;
+    font-weight: 600;
+}
