@@ -1,0 +1,50 @@
+.header_bottom .header_column-edit {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.find_options{
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0 15px;
+}
+
+.find_options .find_option {
+    width: 25%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #533738;
+    border-right: 1px solid rgba(156, 155, 155, 0.2);
+}
+
+.find_options .find_option:last-child {
+    border-right: none;
+}
+
+.find_option i {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.find_option span {
+    font-size: 12px;
+}
+
+.find_recommended {
+    color: #8E8E93;
+}
+
+.find_recommended header {
+    border-bottom: 1px solid #C1C1C1;
+    padding: 7px 15px;
+    font-size: 12px;
+}
+
+.find_recommended .recommended_none {
+    border-bottom: 1px solid #C1C1C1;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
