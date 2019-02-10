@@ -33,6 +33,7 @@
 }
 
 .friends_section-row a {
+    color: black;
     text-decoration: none;
     display: flex;
     align-items: center;
