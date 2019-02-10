@@ -55,4 +55,11 @@
     font-size: 20px;
     color: #3A1D1F;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: color .3s, background .3s, transform .5s ease-in-out;
+}
+
+.chat-btn:hover {
+    color: white;
+    background: #3A1D1F;
+    transform: rotateY(360deg);
 }

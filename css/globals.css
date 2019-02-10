@@ -3,3 +3,21 @@ body {
     padding-top: 63px;
     padding-bottom: 57px;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    animation: .5s bodyPopIn ease-in-out;    
+}
+
+@keyframes bodyPopIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+    }
+}
